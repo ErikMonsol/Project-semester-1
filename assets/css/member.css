@@ -1,0 +1,278 @@
+   header {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 130px;
+     gap: 80px;
+     padding: 15px 30px 20px 41px;
+     color: white;
+     margin: -20px -20px;
+     background: black;
+     margin-bottom: 2%;
+     font-family: "Bebas Neue", sans-serif;
+   }
+
+   header a {
+     color: white;
+     text-decoration: none;
+   }
+
+   .communitytop,
+   .scienceboldtop {
+
+     margin-bottom: -20px;
+
+   }
+
+   .scienceboldtop {
+     font-weight: bold;
+   }
+
+   .headerlogo {
+     margin-left: 20px;
+     transform: translateY(4%);
+   }
+
+   nav {
+     flex: 1;
+     font-family: "Bebas Neue", sans-serif;
+     transform: translateY(15%);
+     font-size: 20px;
+
+
+   }
+
+
+
+   nav>ul {
+     display: flex;
+     gap: 50px;
+     list-style: none;
+   }
+
+   .header__buttons {
+     display: flex;
+     gap: 35px;
+     margin-top: 15px;
+     transform: translateX(-5%);
+   }
+
+   .button__font button {
+     color: black;
+     font-family: "Bebas Neue", sans-serif;
+     font-size: 20px;
+   }
+
+   .header__buttons button {
+     background-image: linear-gradient(to right,
+         #77a1d3 0%,
+         #79cbca 51%,
+         #77a1d3 100%);
+     font-size: 20px;
+     width: 150px;
+     height: 70px;
+     text-align: center;
+     transition: 0.5s;
+     color: black;
+     display: block;
+     border: none;
+   }
+
+   .header__buttons button:hover {
+     background-position: right center;
+     /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+
+   .textcenter {
+     margin: 0;
+     padding: 0;
+     color: white;
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 12rem;
+     font-weight: normal;
+     margin-top: 3%;
+   }
+
+   .bottomtext {
+     margin-top: -40px;
+   }
+
+   .buttonvisit {
+     display: block;
+     margin: 0 auto;
+
+     color: black;
+     border: 1px solid black;
+     text-align: center;
+     background-image: linear-gradient(to right,
+         #77a1d3 0%,
+         #79cbca 51%,
+         #77a1d3 100%);
+     font-size: 2.2rem;
+     font-family: "Bebas Neue", sans-serif;
+   }
+
+   .input-container {
+     display: flex;
+     gap: 10%;
+     font-family: "Bebas Neue", sans-serif;
+     font-weight: bold;
+   }
+
+   .boxinfo {
+     width: 28%;
+     padding: 20px;
+     border: 1px solid black;
+     border-radius: 10px;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+   }
+
+   .headboxinfo {
+     padding: 40px;
+     margin-left: 3%;
+     display: flex;
+     border: 1px solid;
+     justify-content: center;
+   }
+
+
+
+   .inputtitle {
+     margin-bottom: 2%;
+   }
+
+   .inputcustomize {
+     border-radius: 10px;
+     border: 1px solid lightgray;
+     height: 20px;
+   }
+
+   .buttonadeventure {
+     display: block;
+     margin-top: 5%;
+     border: none;
+     background: black;
+     color: white;
+     height: 30px;
+     font-size: 12px;
+     border-radius: 30px;
+     width: 45%;
+     cursor: pointer;
+   }
+
+   a {
+     text-decoration: none;
+     color: black
+   }
+
+
+
+   .logo {
+     font-family: "Inria Sans", sans-serif;
+     font-weight: 400;
+
+   }
+
+   footer {
+     background: black;
+     height: auto;
+     min-width: 20%;
+     margin-top: 3%;
+     color: white;
+     display: flex;
+     margin: -10px -10px
+   }
+
+   .logo {
+     font-family: "Inria Sans", sans-serif;
+   }
+
+   .community {
+     margin-bottom: -13%;
+   }
+
+   .sciencebold {
+     font-weight: 700;
+     font-weight: bold;
+     margin-bottom: -13%;
+   }
+
+   .footerblocklist {
+     display: flex;
+     gap: 30px;
+     font-size: 15px;
+     margin-left: -4%;
+   }
+
+   .elementmover {
+     padding: 30px;
+     width: 100%;
+   }
+
+   .header__font {
+     font-size: 20px;
+
+     color: white;
+   }
+
+   .footertextleft {
+     font-size: 11px;
+     margin-top: 10px;
+     margin-bottom: -10px;
+   }
+
+   .footerlinkleft {
+     color: white;
+     text-decoration: none;
+
+
+
+   }
+
+   .footermedia {
+     display: flex;
+   }
+
+   .footerdec {
+     text-decoration: none;
+     color: white;
+   }
+
+   .footsocial {
+     display: flex;
+     margin: 0 auto;
+
+     gap: 30px;
+     margin-top: 4%;
+   }
+
+   .footerbuttons {
+     background: none;
+     border: 3px solid white;
+     font-size: 2rem;
+     height: 10vh;
+     width: 200px;
+     color: white;
+     margin-left: 20px;
+     margin-top: 3%;
+   }
+
+   .borderbuttons {
+     width: 100%;
+     display: flex;
+     justify-content: flex-end;
+     transform: translateX(-4%);
+     margin-top: 2%;
+   }
+
+
+
+   .centertext {
+     width: 83%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }

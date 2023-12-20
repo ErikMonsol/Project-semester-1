@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <title> About Us </title>
+</head> 
+<body>
+  <header>
+    <div class="logo headerlogo">
+      <a href="index.html">        
+        <h2 class="communitytop">Community</h2>
+        <h2 class="scienceboldtop">Science</h2>
+        <h2>Museum</h2>
+      </a>
+    </div>
+    <nav>
+    
+          <ul class="header__font">
+            <li>Visit</li>
+            <li>Explore</li>
+            <li><a href="about.html">About Us</a></li>
+            <li>Join+Support</li>
+            <li>Store</li>
+        </ul>
+    </nav>
+
+    <img class="burgermenu" src="assets/images/burgermenu.svg">
+ 
+    
+    <div class="header__buttons button__font">
+        <button class="widthbutton">BUY TICKETS</button>
+        <button class="">DONATE</button>
+    </div>
+</header>
+<section class="centerthetext">
+  <h2 class="getintouch">Get in touch</h2>
+  <section class="tworows">
+    <section>
+
+      <div class="input-container">
+        <div class="input-row">
+          <p class="block">Name</p>
+          <input class="inputline" type="text" placeholder="">
+        </div>
+        <div class="input-row">
+          <p class="block">Email Address</p>
+          <input class="inputline" type="text" placeholder="">
+        </div>
+      </div>
+
+      <div class="input-container2">
+
+        <div class="formselect">
+          <label for="select-option">Select an option:</label>
+          <select id="select-option" name="select-option" onchange="toggleInput()">
+            <option value="none">None</option>
+            <option value="school">School</option>
+          </select>
+
+          <div id="school-input" style="display: none;">
+            <label for="school-name">School Name:</label>
+            <input type="text" class="input-width" id="school-name" name="school-name" placeholder="school name">
+          </div>
+        </div>
+
+        <div class="infomover">
+          <p class="phonenumber">Phone number </p>
+          <input class="inputline" type="text" placeholder="">
+        </div>
+
+      </div>
+
+      <div>
+        <p class="messageinfo">Message</p>
+        <input class="messageinput" type="text" placeholder="">
+      </div>
+      
+      <div class="buttonadjustment">
+        <button class="submitfixing">Submit</button>
+      </div>
+    
+    
+    </section>
+    
+    <section>
+
+      <div> 
+        <h3 class="texttitle">Call US</h3>
+        <p class="textwidth">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
+        <div class="infonumber">
+          <img class="phoneadjustment" src="assets/images/phoneCall.svg">
+          <p class="phonenumberinfo">202-555-0190</p>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="texttitle">Visit us</h3>
+        <p class="textwidth">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
+        <div class="infonumber">
+          <img class="mapadjustment" src="assets/images/map.svg">
+          <p class="phonenumberinfo">25374 Bogan Village  </p>
+        </div>
+        <h3 class="texttitle">Live Chat</h3>
+        <p class="textwidth">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
+        <div class="infonumber">
+          <img class="phoneadjustment" src="assets/images/livechat.svg">
+          <p class="phonenumberinfo">Start Chat</p>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section class="sectionunder">
+    <section>
+      <div>
+        <span class="smalltext">FAQ</span>
+        <div class="FAQ">
+          <h2 class="smalltext FAQTEXT">Frequently asked questions</h2>
+        </div>
+      </div>
+    </section>
+    <section class="infotextmover">
+      <p class="smalltext">Loreum ipusum</p>
+      <p class="questionwidth">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo</p>
+      <div class="infobox">
+        <p>vero eos et accusamus?</p>
+        <img class="arrow" src="arrow.svg" onclick="toggleText()">
+      </div>
+      <div class="hidden-text-container">
+        <p class="hidden-text" id="hiddenText">This is the hidden text that appears when the arrow is clicked.</p>
+      </div>
+      <p>vero eos et accusamus?</p>
+      <p class="textbottom">vero eos et accusamus?</p>
+    </section>
+    </section>
+  </section>
+  
+  <footer>
+    <section class="fotfot">
+        <div class="elementmover">
+            <div class="logo header__font">
+                <h2 class="community">Community</h2>
+                <h2 class="sciencebold">Science</h2>
+                <h2>Museum</h2>
+                <p class="footertextleft">123 Fake Street, Oslo,</p>
+                <p><a class="footertextleft footerlinkleft" href="about.html">Contact Us</a></p>
+            </div>
+        </div>
+    </section>
+    <section class="centertext">
+      <div class="footerblocklist">
+        <div>
+        <p>Calender</p>
+        <p>How to get here?</p>
+        <p>Store</p>
+        <p>Event Rentals</p>
+      </div>
+      <div>
+        <p>Jobs</p>
+        <p>Volunteer</p>
+        <p>Press Office</p>
+
+      </div>
+    </div>
+</section>
+
+    <div class="borderbuttons">
+        <button class="footerbuttons">Visit</button>
+        <button class="footerbuttons"><a class="footerdec" href="Becomemember.html">Join</a></button>
+        <button class="footerbuttons">Donate</button>
+    </div>
+    <section class="footermedia">
+        <section class="footsocial">
+            <img src="assets/images/facebookwhite.svg">
+            <img src="assets/images/twitterwhite.svg">
+            <img src="assets/images/instagramwhite.svg">
+            <img src="assets/images/youtubewhite.svg  ">
+         
+         
+  </footer>
+
+  
+</body>
+</html>
+
+<script>
+    function toggleInput() {
+      var selectOption = document.getElementById("select-option");
+      var schoolInput = document.getElementById("school-input");
+  
+      if (selectOption.value === "school") {
+        schoolInput.style.display = "block";
+      } else {
+        schoolInput.style.display = "none";
+      }
+    }
+
+    function toggleText() {
+  var hiddenText = document.getElementById("hiddenText");
+  hiddenText.style.display = hiddenText.style.display === "none" ? "block" : "none";
+}
+
+
+
+  </script>

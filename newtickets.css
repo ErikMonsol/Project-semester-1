@@ -1,0 +1,134 @@
+.butic {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.carsum {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartimg {
+    height: 20px;
+    margin-top: 9%;
+    transform: translateX(-100%);
+}
+
+.left-section {
+    height: 80vh;
+    width: 55%;
+    margin-top: -5%;
+}
+
+.spacein {
+    display: flex;
+    gap: 5%;
+    margin-top: 5%;
+}
+
+.spacein input {
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    outline: none;
+    margin-top: 2%;
+}
+
+.conbun {
+    border: none;
+    margin-top: 5%;
+    width: 13%;
+    height: 30px;
+    margin-bottom: 3%;
+}
+
+.abold {
+    font-weight: bold;
+}
+
+.secondline,
+.thirdline,
+.fourthline {
+    border-top: 1px solid black;
+    width: 50%;
+}
+
+.blacka {
+    color: black;
+}
+
+.right-section {
+    width: 20%;
+    margin-top: 5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding-bottom: 7px;
+    margin-left: -13%;
+}
+
+.styletext {
+    font-size: 13px;
+}
+
+.rightadjust {
+    margin-left: 8%;
+}
+
+.linesum {
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin-top: -15px;
+    margin-left: 0px;
+    border-bottom: 0px;
+}
+
+.bottommover {
+    margin-bottom: 8%;
+    width: 80%;
+}
+
+.nonedata {
+    margin-top: -0px;
+}
+
+.ticktext {
+    margin-bottom: 3%;
+}
+
+.bottomaddon {
+    padding-bottom: 100px;
+}
+
+.tickettoal {
+    margin-top: 8%;
+    padding-top: 7%;
+    margin-top: 20%;
+}
+
+.line {
+    border: 1px solid black;
+    margin-top: 30%;
+    margin-bottom: -24%;
+    margin-left: -1%;
+    width: 90%;
+}
+
+.ticketpric {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    border: 1px solid black;
+}
+
+.totalsum {
+    margin-top: 27%;
+    transform: translateX(-90%);
+}
