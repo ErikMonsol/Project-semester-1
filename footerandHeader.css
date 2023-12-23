@@ -2,7 +2,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     background: black;
 }
 
@@ -45,11 +44,21 @@ nav ul li a {
     gap: 32px;
 }
 
+.footerbuttons {
+    background: none;
+    border: 3px solid white;
+    color: white;
+    margin-top: 3%;
+}
 
 @media (max-width: 2560px) and (min-width: 1000px) {
 
     .footerContent {
         width: 45%;
+    }
+
+    .footerbuttons {
+        font-size: 2rem;
     }
 
     .footerbuttons {
@@ -68,6 +77,10 @@ nav ul li a {
 
     .socialmedia {
         height: 20%;
+    }
+
+    header {
+        padding: 10px;
     }
 }
 
@@ -90,6 +103,11 @@ nav ul li a {
         flex-direction: column;
     }
 
+    .footerbuttons {
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+
     .buttons {
         flex-direction: column;
         display: flex;
@@ -97,25 +115,44 @@ nav ul li a {
 
     .butAndSocial {
         display: flex;
+        flex-direction: column;
     }
 
     .conInfo,
     .socialmedia {
-        flex-direction: column;
         justify-content: center;
     }
 
     .socialmedia {
-        gap: 12px;
+        gap: 32px;
     }
 
     .footerContent {
         margin: 23px 5px 20px 20px;
+        display: flex;
+        flex-direction: row;
     }
 
     .butAndSocial {
         margin: 10px;
-        width: 100%;
-        justify-content: flex-end;
+        width: 90%;
+        justify-content: center;
+    }
+
+    nav {
+        margin-bottom: -40px;
+    }
+
+    header {
+        padding: 0px 10px;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+    }
+
+
+    .imageSizing {
+        width: 9%;
     }
 }

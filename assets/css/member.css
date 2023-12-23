@@ -4,17 +4,6 @@
 }
 
 
-@media (max-width: 1250px) and (min-width: 300px) {}
-
-@media (max-width: 1000px) and (min-width: 700px) {
-  .boxinfo {
-    width: 28%;
-  }
-
-}
-
-width: 150px;
-height: 70px;
 
 .boxinfo {
   padding: 20px;
@@ -23,28 +12,7 @@ height: 70px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-.communitytop,
-.scienceboldtop {
 
-  margin-bottom: -20px;
-
-}
-
-.scienceboldtop {
-  font-weight: bold;
-}
-
-.headerlogo {
-  margin-left: 20px;
-  transform: translateY(4%);
-}
-
-
-.header__buttons {
-  display: flex;
-  gap: 35px;
-
-}
 
 .linkColor {
   color: white;
@@ -62,7 +30,6 @@ height: 70px;
       #79cbca 51%,
       #77a1d3 100%);
   font-size: 20px;
-
   text-align: center;
   transition: 0.5s;
   color: black;
@@ -198,67 +165,4 @@ footer {
 .elementmover {
   padding: 30px;
   width: 100%;
-}
-
-.header__font {
-  font-size: 20px;
-
-  color: white;
-}
-
-.footertextleft {
-  font-size: 11px;
-  margin-top: 10px;
-  margin-bottom: -10px;
-}
-
-.footerlinkleft {
-  color: white;
-  text-decoration: none;
-
-
-
-}
-
-.footermedia {
-  display: flex;
-}
-
-.footerdec {
-  text-decoration: none;
-  color: white;
-}
-
-.footsocial {
-  display: flex;
-  margin: 0 auto;
-
-  gap: 30px;
-  margin-top: 4%;
-}
-
-.footerbuttons {
-  background: none;
-  border: 3px solid white;
-  font-size: 2rem;
-  color: white;
-
-  margin-top: 3%;
-}
-
-.borderbuttons {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  transform: translateX(-4%);
-  margin-top: 2%;
-}
-
-
-
-.centertext {
-  width: 83%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
