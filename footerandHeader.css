@@ -5,6 +5,11 @@ header {
     background: black;
 }
 
+
+a {
+    color: white;
+}
+
 .logo {
     font-weight: bold;
     color: white;
@@ -116,6 +121,15 @@ nav ul li a {
         flex-direction: column;
     }
 
+    .regFix {
+        margin: 10px 0px;
+    }
+
+    .botmfix {
+        margin-bottom: 10px;
+    }
+
+
     .logo {
         font-size: 1.2rem;
     }
@@ -153,6 +167,7 @@ nav ul li a {
     .footerContent {
         margin: 23px 5px 20px 20px;
         display: flex;
+        justify-content: center;
         flex-direction: row;
     }
 
@@ -161,6 +176,8 @@ nav ul li a {
         width: 90%;
         justify-content: center;
     }
+
+
 
     nav {
         margin-bottom: -40px;
