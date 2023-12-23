@@ -47,6 +47,8 @@ nav ul li a {
     width: 50%;
 }
 
+
+
 .socialmedia {
     display: flex;
     justify-content: center;
@@ -60,7 +62,12 @@ nav ul li a {
     margin-top: 3%;
 }
 
+
 @media (max-width: 2560px) and (min-width: 1000px) {
+    .buttonadeventure {
+        width: 45%;
+    }
+
 
     .logo {
         font-size: 1.5rem;
@@ -76,12 +83,14 @@ nav ul li a {
     }
 
     .footerbuttons {
+        padding: 26px 57px;
         font-size: 2rem;
     }
 
-    .footerbuttons {
-        width: 20%;
-        padding: 17px 0px;
+    .butAndSocial {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
 
     .conInfo {
@@ -112,17 +121,12 @@ nav ul li a {
     }
 
 
-
 }
 
 @media (max-width: 700px) and (min-width: 300px) {
     nav>ul {
         opacity: 0;
         flex-direction: column;
-    }
-
-    .regFix {
-        margin: 10px 0px;
     }
 
     .botmfix {
@@ -162,6 +166,8 @@ nav ul li a {
 
     .socialmedia {
         gap: 32px;
+        width: 75%;
+        margin: 0 auto;
     }
 
     .footerContent {

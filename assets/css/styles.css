@@ -109,7 +109,7 @@ h6 {
   }
 
   .logo.header__font {
-    border: 1px solid black;
+
     width: 100%;
   }
 
@@ -135,7 +135,12 @@ h6 {
 
   .logo .h2__bold {
     font-weight: 700;
+    display: block;
+  }
 
+  a {
+    text-decoration: none;
+    color: white;
   }
 
   header {

@@ -10,6 +10,78 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
+.logText {
+  color: black;
+
+}
+
+.buttonadeventure {
+  display: block;
+  margin-top: 3%;
+  border: none;
+  background: black;
+  color: white;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 700px) and (min-width: 300px) {
+  .inputcustomize {
+    padding: 4px 9px;
+    width: 80%;
+  }
+
+  .inputtitle {
+    opacity: 0;
+    font-size: 8px;
+  }
+
+  .titleMem {
+    margin: 10px 35px;
+    text-align: left;
+  }
+
+  .textMem,
+  .almember {
+    margin: 0 auto;
+  }
+
+  .textMem,
+  .regFix,
+  .almember {
+    width: 85%;
+  }
+
+  .regFix {
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+
+  .buttonadeventure {
+    width: 50%;
+    margin: 10px auto;
+  }
+
+  .boxinfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputcustomize {
+    padding: 4px 9px;
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+.inputcustomize {
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
 .linkColor {
   color: white;
 }
@@ -79,25 +151,6 @@
 
 .inputtitle {
   margin-bottom: 2%;
-}
-
-.inputcustomize {
-  border-radius: 10px;
-  border: 1px solid lightgray;
-  height: 20px;
-}
-
-.buttonadeventure {
-  display: block;
-  margin-top: 5%;
-  border: none;
-  background: black;
-  color: white;
-  height: 30px;
-  font-size: 12px;
-  border-radius: 30px;
-  width: 45%;
-  cursor: pointer;
 }
 
 a {
