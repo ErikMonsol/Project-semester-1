@@ -1,0 +1,121 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    width: 2%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttons button {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.conInfo {
+    display: flex;
+    gap: 23px;
+    margin: 15px;
+}
+
+.butAndSocial {
+    width: 50%;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+
+@media (max-width: 2560px) and (min-width: 1000px) {
+
+    .footerContent {
+        width: 45%;
+    }
+
+    .footerbuttons {
+        width: 20%;
+        padding: 17px 0px;
+    }
+
+    .conInfo {
+        justify-content: flex-start;
+    }
+
+
+    .screenSizeTabPhone {
+        opacity: 0;
+    }
+
+    .socialmedia {
+        height: 20%;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 300px) {
+    .footerContent {
+        flex-direction: column;
+    }
+
+    .screenSizeLapPC {
+        opacity: 0;
+    }
+
+
+
+}
+
+@media (max-width: 700px) and (min-width: 300px) {
+    nav>ul {
+        opacity: 0;
+        flex-direction: column;
+    }
+
+    .buttons {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .butAndSocial {
+        display: flex;
+    }
+
+    .conInfo,
+    .socialmedia {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .socialmedia {
+        gap: 12px;
+    }
+
+    .footerContent {
+        margin: 23px 5px 20px 20px;
+    }
+
+    .butAndSocial {
+        margin: 10px;
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
