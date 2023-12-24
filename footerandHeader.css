@@ -33,7 +33,7 @@ nav ul li a {
 }
 
 .buttons button {
-    padding: 10px;
+
     margin-left: 10px;
 }
 
@@ -66,6 +66,10 @@ nav ul li a {
 @media (max-width: 2560px) and (min-width: 1000px) {
     .buttonadeventure {
         width: 45%;
+    }
+
+    .buttons button {
+        padding: 10px;
     }
 
 
@@ -127,6 +131,11 @@ nav ul li a {
     nav>ul {
         opacity: 0;
         flex-direction: column;
+        margin-bottom: -50px;
+    }
+
+    .buttons button {
+        padding: 5px 20px;
     }
 
     .botmfix {
@@ -134,8 +143,9 @@ nav ul li a {
     }
 
 
-    .logo {
-        font-size: 1.2rem;
+    .logo,
+    button {
+        font-size: 0.8rem;
     }
 
     .headboxinfo {
