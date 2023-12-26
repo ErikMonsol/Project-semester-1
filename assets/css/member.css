@@ -164,20 +164,6 @@ a {
 
 }
 
-footer {
-  background: black;
-  height: auto;
-  min-width: 20%;
-  margin-top: 3%;
-  color: white;
-  display: flex;
-}
-
-.footerContent {
-  display: flex;
-  margin: 25px 20px;
-}
-
 .logo {
   font-family: "Inria Sans", sans-serif;
 }

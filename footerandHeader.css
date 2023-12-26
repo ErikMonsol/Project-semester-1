@@ -29,7 +29,6 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
 }
 
 .buttons button {
@@ -74,7 +73,12 @@ nav ul li a {
 
 
     .logo {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        color: white;
+    }
+
+    nav>ul {
+        color: white;
     }
 
     .headboxinfo {
@@ -123,8 +127,6 @@ nav ul li a {
     .screenSizeLapPC {
         opacity: 0;
     }
-
-
 }
 
 @media (max-width: 700px) and (min-width: 300px) {
@@ -211,4 +213,18 @@ nav ul li a {
     .imageSizing {
         width: 9%;
     }
+}
+
+footer {
+    background: black;
+    height: auto;
+    min-width: 20%;
+    margin-top: 3%;
+    color: white;
+    display: flex;
+}
+
+.footerContent {
+    display: flex;
+    margin: 25px 20px;
 }
