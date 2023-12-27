@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +20,7 @@
 
 .buttonadeventure {
   display: block;
-  margin-top: 3%;
+  margin-top: 1%;
   border: none;
   background: black;
   color: white;
@@ -28,10 +31,29 @@
   margin-bottom: 10px;
 }
 
+h3.titleMem,
+.textMem,
+.buttonadeventure {
+  font-family: "Inria Sans", sans-serif;
+}
+
+.almember {
+  font-family: sans-serif;
+}
+
+.regFix,
+.inputtitle {
+  font-family: 'Bitter', serif;
+}
+
 @media (max-width: 2560px) and (min-width: 1000px) {
   .inputcustomize {
     height: 3vh;
     padding: 1px 8px;
+  }
+
+  .emailBotom {
+    margin-bottom: 2%;
   }
 
   h3.titleMem {
@@ -40,10 +62,11 @@
 
   .buttonadeventure {
     width: 25%;
+    padding: 1px 14px;
   }
 
   .regFix {
-    padding: 7px 0px;
+    padding: 10px 0px;
   }
 }
 
@@ -95,7 +118,7 @@
 }
 
 .regFix {
-  padding-top: 10px;
+  padding: 10px 0px;
 }
 
 .inputcustomize {
@@ -169,10 +192,6 @@
   gap: 10%;
   font-family: "Bebas Neue", sans-serif;
   font-weight: bold;
-}
-
-.inputtitle {
-  margin-bottom: 2%;
 }
 
 a {

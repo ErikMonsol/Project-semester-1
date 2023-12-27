@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+p {
+  font-family: sans-serif;
+}
+
 .Nam-Mail {
   display: flex;
   padding: 5px 15px;
@@ -31,10 +35,6 @@
     flex-direction: column;
     justify-content: center;
   }
-
-
-
-
 }
 
 @media (max-width: 1000px) and (min-width: 300px) {
@@ -53,8 +53,6 @@
   color: white;
   padding: 5px 20px;
 }
-
-
 
 .questionCon {
   width: 80.1%;

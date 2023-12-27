@@ -5,6 +5,7 @@
 
 header {
     display: flex;
+
     justify-content: space-between;
     align-items: center;
     background: black;
@@ -14,6 +15,11 @@ header {
 a {
     color: white;
     text-decoration: none;
+}
+
+.logo,
+.buttons button {
+    font-family: sans-serif;
 }
 
 .logo {
@@ -31,6 +37,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    font-family: fantasy;
 }
 
 nav ul li a {

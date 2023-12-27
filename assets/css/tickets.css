@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap');
+
 .dateSumBox {
   display: flex;
   justify-content: center;
@@ -91,6 +94,15 @@
 
 .dataText {
   margin: 0px 0px 13px 0px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.ticketTitle,
+.ticketUnderTitle {
+  font-family: "Inria Sans", sans-serif;
 }
 
 @media (min-width: 1000px) and (max-width: 2600px) {
