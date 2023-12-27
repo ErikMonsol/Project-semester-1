@@ -1,100 +1,137 @@
-.container {
-    padding: 20px;
-    margin-left: 5%;
-    
-  }
-  
-  .text-width {
-    width: 60%;
-  }
-  
-  .inputinfo {
-    display: flex;
-    gap: 5%; /* Adjust the gap as needed */
-    margin-top: 2%;
-  }
-  
-  .inputinfo input {
-    border: none;
-    border-bottom: 1px solid black;
-    background-color: transparent;
-    outline: none;
-  }
-  
-  .conbun {
-    border: none;
-    margin-top: 1.5%;
-    width: 7%;
-    height: 30px;
-  }
-  
-  .pline {
-    margin-top: 15px;
-  }
-  
-  .secondline,
-  .thirdline,
-  .fourthline {
-    border-top: 1px solid black;
-    width: 50%;
-  }
-  
-  .secondline {
-    margin-bottom: -25px;
-    margin-top: 3%;
-  }
-  
-  .thirdline {
-    margin-bottom: -8px;
-    margin-top: 3%;
-  }
-  
-
-  body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.dateSumBox {
+  display: flex;
+  justify-content: center;
 }
 
-.container2 {
-    display: flex;
-    width: 50%;
-    margin-top: -20%;
-    
-   margin-left: -20%;
+.subDateSumBox {
+  height: auto;
 }
 
-.left-box{
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    font-size: 24px;
-    width: 10pxs;
-    
+.priceBox {
+  padding: 18px 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.left-box p{
-    white-space: normal;
+.spacein {
+  display: flex;
+  gap: 50px;
+  margin-top: 5%;
 }
 
-.boxbox{
-  
+.dateTickCon {
+  display: flex;
+  gap: 10px;
+}
+
+.inpText {
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  outline: none;
+}
+
+.infoOpenTime {
+  color: black;
+}
+
+.secondline,
+.thirdline,
+.fourthline {
+  border-top: 1px solid black;
+  width: 80%;
+  padding: 18px;
+}
+
+.conBut {
+  margin: 10px 3px;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.datesInfoText {
+  margin-bottom: 20px;
+}
+
+.sumCartCon {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  margin: 0% 10%;
+
+}
+
+.sumCon,
+.cartCon {
+  width: 50%;
+}
+
+.cartCon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dataInfo {
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.totalSum {
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  display: flex;
+  align-items: flex-end;
+  border-top: 1px solid;
+}
+
+.dataText {
+  margin: 0px 0px 13px 0px;
+}
+
+@media (min-width: 1000px) and (max-width: 2600px) {
+  .subDateSumBox {
     width: 40%;
-    border: 1px solid black;
-   padding-left: 3%;
+  }
+
+  .totalSum {
+    height: 15vh;
+  }
+
+  .priceBox {
+    border-radius: 80px;
+  }
+
+  .dateSumBox {
+    gap: 33px
+  }
 }
 
-.summline{
-    border-bottom: 1px solid black;
-    width: 90%;
+@media (min-width: 300px) and (max-width: 1000px) {
+  .dateSumBox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subDateSumBox {
+    width: 80%;
+  }
+
+  .dateSumBox {
+    gap: 13px
+  }
+
+
+  .priceBox {
+    border-radius: 30px;
+  }
 }
 
-.datanone{
-    border: 1px solid black;
-    margin: 0 auto;
+.ticketBuyInfoCon {
+  width: 90%;
+  margin: 8px auto;
 }
-

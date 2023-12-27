@@ -1,48 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/tickets.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Page for buying tickets for community museum">
+  <title>TicketsPage</title>
+  <link rel="stylesheet" href="footerandHeader.css">
+  <link rel="stylesheet" href="assets/css/tickets.css">
 </head>
+
 <body>
-    <section>
-        <section class="container">
-          <div class="text-width">
-            <p>Buy Tickets</p>
-            <p>Tickets are valid for the days you select.<i>They are nontransferable and nonrefundable</i></p>
-            <p>Please note. The Community Science Museum is dedicated to expanding access to all by providing free and reduced admission oppurtinies<a>Learn More</a></p>
-          </div>
-          <h2>1. choose your Date</h2>
-          <p>Select the date of your visit and select either a Daytime ticket or After dark ticket.</p>
-          <p><em>Note: Sundays 10:00 am - noon are open to Daytime member/Donors only</em><a href="#">(Join Today!)</a></p>
-          <div class="inputinfo">
-            <input placeholder="Select a Date..."><input placeholder="Choose Ticket(s)...">
-          </div>
-          <button class="conbun">Continue</button>
-          <h2 class="secondline"><p class="pline">2. Pick your tickets</p></h2>
-          <h2 class="thirdline"><p class="pline">3. Support the community science museum</p></h2>
-          <h2 class="fourthline"><p class="pline">4. Pick your tickets</p></h2>
-        </section>
-      </section>
-      <div class="container2">
-        <div class="boxbox">
-            <div class="left-box">
-                <p class="summline">Order Summary</p>
-
-                  <p>No data Selected</p>
-                </section>
-              </div>
-        </div>
-      
+  <header>
+    <div class="logo">
+      <h2><a href="index.html">Community Science Museum </a></h2>
     </div>
-      
-    
+    <nav>
+      <ul>
+        <li><a class="linkColor" href="#">Visit</a></li>
+        <li><a class="linkColor" href="#">Explore</a></li>
+        <li><a class="linkColor" href="about.html">About</a></li>
+        <li><a class="linkColor" href="Becomemember.html">Join+Support</a></li>
+        <li><a class="linkColor" href="#">Store</a></li>
+      </ul>
+    </nav>
+    <div class="buttons">
+      <button type="button"><a href="tickets.html">Buy Tickets</a></button>
+      <button type="button"><a href="Donate.html">Donate</a></button>
+    </div>
+  </header>
+
+  <div class="ticketBuyInfoCon">
+    <h1>Buy Tickets</h1>
+    <p>Tickets are valid for the days you select.They are nontransferable and nonrefundable</p>
+    <p>Please note. The Community Science Museum is dedicated to expanding access to all by providing free and
+      reduced
+      admission opportunities Learn More</p>
+  </div>
+  <div class="dateSumBox">
+    <div class="subDateSumBox">
+      <h2>1. Choose your Date</h2>
+      <p>Select the date of your visit and select either a Daytime ticket or After dark ticket.</p>
+      <p class="datesInfoText"><a class="infoOpenTime">Note: Sundays 10:00 am - noon are open to Daytime
+          member/Donors
+          only.</a> <a class="infoOpenTime" href="#">(Join Today!)</a></p>
+      <div class="dateTickCon">
+        <input class="inpText" placeholder="Select a Date...">
+        <input class="inpText" placeholder="Choose Ticket(s)...">
+      </div>
+      <button class="conBut">Continue</button>
+      <h2 class="secondline">
+        2. Pick your tickets
+      </h2>
+      <h2 class="thirdline">
+        3. Support the community science museum
+      </h2>
+      <h2 class="fourthline">
+        4. Checkout
+      </h2>
+    </div>
+
+    <div class="subDateSumBox priceBox">
+      <div class="sumCartCon">
+        <div class="sumCon">
+          <h3>Order Summary
+          </h3>
+        </div>
+        <div class="cartCon"> <img src="assets/images/cart.svg">
+        </div>
+      </div>
+      <div class="dataInfo">
+        <p class="dataText">No data Selected</p>
+        <h3>TICKET(S):</h3>
+        <p class="dataText">Not tickets Selected</p>
+        <h3>ADD-ONS:</h3>
+        <p class="dataText">No add-ons selected</p>
+      </div>
+      <div class="totalSum">
+        <h3>Total:</h3>
+        <h3>$0.00</h3>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footerContent">
+      <div class="textInfoRowCont">
+        <p class="botmfix">Calender</p>
+        <p class="botmfix">How to get here?</p>
+        <p class="botmfix">Store</p>
+        <p class="botmfix">Event Rentals</p>
+        <p class="botmfix">Contact Us</p>
+        <h3 class="screenSizeLapPC">123 Fake Street, Oslo,</h3>
+      </div>
+      <div class="TextInfoRowCont">
+        <p class="botmfix">Jobs </p>
+        <p class="botmfix">Volunteer </p>
+        <p class="botmfix">Press Office</p>
+        <p class="botmfix">Event Rentals</p>
+        <h3 class="screenSizeTabPhone">123 Fake Street, Oslo,</h3>
+      </div>
+    </div>
+    <div class="butAndSocial">
+      <div class="conInfo">
+        <button class="footerbuttons"><a href="#">Visit</a></button>
+        <button class="footerbuttons"><a href="#">Join </a></button>
+        <button class="footerbuttons"><a href="#">Donate</a></button>
+      </div>
+      <div class="socialmedia">
+        <img class="imageSizing" src="assets/images/facebookwhite.svg">
+        <img class="imageSizing" src="assets/images/twitterwhite.svg">
+        <img class="imageSizing" src="assets/images/instagramwhite.svg">
+        <img class="imageSizing" src="assets/images/youtubewhite.svg  ">
+      </div>
+    </div>
+  </footer>
 
 
-    
-   
+
 </body>
+
 </html>

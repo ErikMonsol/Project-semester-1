@@ -1,863 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+}
 
-@media (min-width: 1000px) and (max-width: 2000px) {
+.Nam-Mail {
+  display: flex;
+  padding: 5px 15px;
+}
 
-    
-header {
+.flexCon {
+  display: flex;
+  justify-content: center;
+  padding: 23px;
+}
+
+.subCon {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
+@media (max-width: 2560px) and (min-width: 1000px) {
+  .subFlexCon {
+    width: 40%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 80px;
-    padding: 5px 21px 0 41px;
-    color: black;
-    margin: -20px -20px;
-    background: black;
-    margin-bottom: 2%;
-    
-  }
-
-  .burgermenu{
-    overflow: hidden;
-    z-index: -11111;
-    position: absolute;
-
-  }
-  header a{
-    color: white;
-    text-decoration: none;
-  }
-
-  .communitytop, .scienceboldtop{
-    margin-bottom: -30px;
-    
-  }
-
-  .headerlogo{
-    margin-left: 20px;
-    transform: translateY(4%);
-  }
-
-  nav {
-    flex: 1;
-    font-family: "Bebas Neue", sans-serif;
-    transform: translateY(15%);
-  
   }
 
 
-  
-  nav > ul {
-    display: flex;
-    gap: 50px;
-    list-style: none;
-  }
-  
-  .header__buttons {
-    display: flex;
-    gap: 35px;
-    margin-top: 15px;
-    transform: translateX(-5%);
-  }
-  
-  .button__font button {
-    color: black;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
-  }
-  
-  .header__buttons button {
-    background-image: linear-gradient(
-      to right,
-      #77a1d3 0%,
-      #79cbca 51%,
-      #77a1d3 100%
-    );
-    font-size: 20px;
-    width: 150px;
-    height: 70px;
-    text-align: center;
-    transition: 0.5s;
-    color: black;
-    display: block;
-    border: none;
-  }
-  
-  .header__buttons button:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .textcenter{
-    margin: 0;
-    padding: 0;
-    color: white;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12rem;
-    font-weight: normal;
-    margin-top: 3%;
-  }
-  
-  .bottomtext{
-    margin-top: -40px;
-  }
-  
-  .buttonvisit{
-    display: block;
+
+
+}
+
+@media (max-width: 1000px) and (min-width: 300px) {
+  .subFlexCon {
+    width: 90%;
     margin: 0 auto;
- 
-    color: black;
-    border: 1px solid black;
-    text-align: center;
-    background-image: linear-gradient(
-      to right,
-      #77a1d3 0%,
-      #79cbca 51%,
-      #77a1d3 100%
-    );
-  font-size: 2.2rem;
-    font-family: "Bebas Neue", sans-serif;
-  }
-    .input-container{
-        display: flex;
-        gap: 10%;
-        font-family: "Bebas Neue", sans-serif;
-        font-weight: bold;
-    }
-    
-    .getintouch{
-    margin: 0 auto;
-    width: 68%;
-    margin-top: 3%;
-  
-}
-  .input-width {
-    width: 100px;
   }
 
-.input-container2{
-    display: flex;
-    gap: 5%;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: bold;
-   
-}
-
-.formselect{
-    margin-top: 8%;
-    width: 203px;
-    
-}
-
-.messageinfo{
-    margin-bottom: 10px;
-    margin-top: 10%;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: bold;
-}
-
-.input-width{
-    width: 100px;
-}
-
-
-
-.messageinput{
-   width: 98.2%;
-   height: 100px;
-   font-weight: bold;
-}
-
-.buttonsubmit{
-    display: flex;
-    justify-content: center
-    ;
-}
-.tworows{
-    display: flex;
-    justify-content: center;
-    gap: 10%;
-  
-    
-}
-
-.texttitle{
-    margin-bottom: -13px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: bold;
-}
-.textwidth{
-    width: 450px;
-    font-family: 'Montserrat', sans-serif;  
-   
-}
-
-
-
-.sectionunder{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    gap: 10%;
-    width: 60%;
-    margin-top: 50px;
-}
-
-.phoneadjustment{
-    margin-top: -9px;
-    height: 15px;
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 5px;
-}
-
-.infonumber{
-    display: flex;
-}
-
-.phonenumberinfo{
-    margin-top: -1%;
-    margin-left: 2%;
-    margin-bottom: -30%;
-   
-}
-
-.mapadjustment{
-    margin-top: -9px;
-    height: 15px;
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 7px;
-}
-
-.smalltext{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: bold;
-}
-
-
-
-.questionwidth{
-    width: 400px;
-    margin-bottom: 5px;
-}
-
-.inputline{
-    border: none;
-  border-bottom: 1px solid black;
-  outline: none;
-}
-
-
-.phonenumber, .block{
-   margin-bottom: -3px;
-}
-
-.infobox{
-    display: flex;
-    gap: 50%
-}
-
-.buttonadjustment{
-
-    display: flex;
-    justify-content: flex-end;
-}
-
-.submitfixing{
-    border: none;
-    background: black;
-    color: white;
-    margin-top: 10px;
-    border-radius: 1px;
-    padding: 5px 20px;
-    cursor: pointer;
-    
-}
-
-.arrow{
-    background: black;
-    height: 10px;
-    border-radius: 50%;
-    margin-top: 5%;
-}
-
-.hidden-text {
-   text-align: left;
-   margin-top: -10px;
+  .flexCon {
+    flex-direction: column;
   }
-
-  .FAQ{
-    width: 10%;
-    font-size: 2em;
-    margin-top: -25px;
-  }
-
-  .FAQTEXT{
-    font-weight: bold;
-    font-family: "Bebas Neue", sans-serif;
-  }
-
-
-
-
-
-
-  .textbottom{
-
-    margin-bottom: 8%;
-  }
-  
-
-
-  .logo{
-    font-family: "Inria Sans", sans-serif;
-    font-weight: 400;
- 
-}
-  footer{
-    background: black;
-    height: auto;
-    min-width: 20%;
-    margin-top: 3%;
-    color: white;
-    display: flex;
-    margin: -10px -10px
-
-  }
-
-  .logo{
-    font-family: "Inria Sans", sans-serif;
-  }
-
-  .community{
-    margin-bottom: -13%;
-  }
-  .sciencebold{
-    font-weight: 700;
-    font-weight: bold;
-    margin-bottom: -13%;
-  }
-  
-  .footerblocklist{
-    display: flex;
-    gap: 30px;
-    font-size: 15px;
-    margin-left: -4%;
-  }
-  .elementmover{
-    padding: 30px;
-    width: 100%;
-  }
-
-    .header__font{
-    font-size: 20px;
-
-    color: white;
-    }
-  
-  .footertextleft{
-    font-size: 11px;
-    margin-top: 10px;
-    margin-bottom: -10px;
-  }
-  
-  .footerlinkleft{
-    color: white;
-    text-decoration: none;
-   
-    
-    
-  }
-  
-  .footermedia{
-    display: flex;
-  }
-
-  .footerdec{
-    text-decoration: none;
-    color: white;
-  }
-  
-  .footsocial{
-    display: flex;
-    margin: 0 auto;
-
-    gap: 30px;
-    margin-top: 4%;
-  }
-  
-  .footerbuttons{
-    background: none;
-    border: 3px solid white;
-    font-size: 2rem;
-    height: 10vh;
-    width: 200px;
-    color: white;
-    margin-left: 20px;
-    margin-top: 3%;
-  }
-  
-  .borderbuttons{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    transform: translateX(-4%);
-    margin-top: 2%;
-  }
-  
-  
-  
-  .centertext{
-    width: 83%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .burgermenu2{
-    display: hidden;
-    
-    color: black;
 }
 
-  
-
-}
-  
-
-
-
-
-
-
-@media (min-width: 200px) and (max-width: 1000px) {
-    
-      
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    background: black;    
-     width: 100%;
-    
-  }
-
-  header a{
-    color: white;
-    text-decoration: none;
-  }
-
-  .communitytop, .scienceboldtop{
-    margin-bottom: -30px;
-    
-  }
-
- 
-
-  nav {
-    flex: 1;
-    font-family: "Bebas Neue", sans-serif;
-    transform: translateY(15%);
-    display: hidden;
-    visibility: hidden;
-  
-  }
-
-
-  
-  
-  nav > ul {
-    display: flex;
-    gap: 50px;
-    list-style: none;
-   
-  }
-  
-  .header__buttons {
-  
-    margin-top: 15px;
-    transform: translateX(-5%);
-  }
-  
-  .button__font button {
-    color: black;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
-  }
-  
-  .header__buttons button {
-    background-image: linear-gradient(
-      to right,
-      #77a1d3 0%,
-      #79cbca 51%,
-      #77a1d3 100%
-    );
-    font-size: 20px;
-    width: 150px;
-    height: 70px;
-    text-align: center;
-    transition: 0.5s;
-    color: black;
-    display: block;
-    border: none;
-  }
-  
-  .header__buttons button:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .textcenter{
-    margin: 0;
-    padding: 0;
-    color: white;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12rem;
-    font-weight: normal;
-    margin-top: 3%;
-  }
-  
-  .bottomtext{
-    margin-top: -40px;
-  }
-  
-  .buttonvisit{
-    display: block;
-    margin: 0 auto;
- 
-    color: black;
-    border: 1px solid black;
-    text-align: center;
-    background-image: linear-gradient(
-      to right,
-      #77a1d3 0%,
-      #79cbca 51%,
-      #77a1d3 100%
-    );
-  font-size: 1rem;
-    font-family: "Bebas Neue", sans-serif;
-  }
-    .input-container{
-        display: flex;
-        gap: 10%;
-        font-family: "Bebas Neue", sans-serif;
-        font-weight: bold;
-    }
-    
-    .getintouch{
-    margin: 0 auto;
-    width: 68%;
-    margin-top: 3%;
-  
-}
-
-.widthbutton{
-    margin-top: -10px;
-    margin-bottom: 10px;
-}
-  .input-width {
-    width: 100px;
-  }
-
-.input-container2{
-    display: flex;
-    gap: 5%;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: bold;
-   
-}
-
-
-.burgermenu{
-    margin-left: -30%;
-}
-
-.headerlogo{
-    margin-left: 10%;
-    transform: translateY(4%);
-  } 
-
-
-.formselect{
-    margin-top: 8%;
-    width: 203px;
-
-    
-}
-
-
-.infomover{
-    margin: 0 auto;
-}
-.messageinfo{
-    margin-bottom: 10px;
-    margin-top: 10%;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: bold;
-}
-
-.input-width{
-    width: 100px;
+.butSub {
+  background: black;
+  color: white;
+  padding: 5px 20px;
 }
 
 
 
-.messageinput{
-   width: 98.2%;
-   height: 100px;
-   font-weight: bold;
+.questionCon {
+  width: 80.1%;
+  margin: 0 auto;
 }
 
-.buttonsubmit{
-    display: flex;
-    justify-content: center
-    ;
-}
-.tworows{
-    gap: 10%;
-  
-    
+.botfix {
+  margin-bottom: 10px;
 }
 
-.texttitle{
-    transform: translateX(-27%);
-    margin-bottom: 8px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: bold;
-    text-align: center;
-
-}
-.textwidth{
-    margin: 0 auto;
-
-    width: 450px;
-    font-family: 'Montserrat', sans-serif;  
-   
+.messageBox {
+  height: 13vh;
+  width: 60%;
+  margin: 0 auto;
 }
 
-
-
-.sectionunder{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    gap: 10%;
-    width: 60%;
-    margin-top: 50px;
+input {
+  width: 80%;
 }
 
-.phoneadjustment{
-    margin-top: -9px;
-    height: 15px;
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 5px;
+.contInfo {
+  width: 80%;
 }
 
-.infonumber{
-    display: flex;
+.messageInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.phonenumberinfo{
-    margin-top: -1%;
-    margin-left: 2%;
-    margin-bottom: -30%;
-   
+.subMessage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.mapadjustment{
-    margin-top: -9px;
-    height: 15px;
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 7px;
-}
-
-.smalltext{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: bold;
-}
-
-
-
-.questionwidth{
-    width: 400px;
-    margin-bottom: 5px;
-}
-
-.inputline{
-    border: none;
-  border-bottom: 1px solid black;
-  outline: none;
-}
-
-
-.phonenumber, .block{
-   margin-bottom: -3px;
-}
-
-.infobox{
-    display: flex;
-    gap: 50%
-}
-
-.buttonadjustment{
-
-    display: flex;
-    justify-content: flex-end;
-}
-
-.submitfixing{
-    border: none;
-    background: black;
-    color: white;
-    margin-top: 10px;
-    border-radius: 1px;
-    padding: 5px 20px;
-    cursor: pointer;
-    
-}
-
-.arrow{
-    background: black;
-    height: 10px;
-    border-radius: 50%;
-    margin-top: 5%;
-}
-
-.hidden-text {
-   text-align: left;
-   margin-top: -10px;
-  }
-
-  .FAQ{
-    width: 10%;
-    font-size: 2em;
-    margin-top: -25px;
-  }
-
-  .FAQTEXT{
-    font-weight: bold;
-    font-family: "Bebas Neue", sans-serif;
-  }
-
-
-
-
-
-
-  .textbottom{
-
-    margin-bottom: 8%;
-  }
-  
-
-
-  .logo{
-    font-family: "Inria Sans", sans-serif;
-    font-weight: 400;
- 
-}
-  footer{
-    background: black;
-    height: auto;
-    color: white;
-    display: flex;
-   width: 100%;
-   
-
-  }
-
-  .logo{
-    font-family: "Inria Sans", sans-serif;
-  }
-
-  .community{
-    margin-bottom: -13%;
-  }
-  .sciencebold{
-    font-weight: 700;
-    font-weight: bold;
-    margin-bottom: -13%;
-  }
-  
-  .footerblocklist{
-    display: flex;
-    gap: 30px;
-    font-size: 15px;
-    margin-left: -4%;
-  }
-  .elementmover{
-    padding: 30px;
-    width: 100%;
-  }
-
-    .header__font{
-    font-size: 20px;
-
-    color: white;
-    }
-  
-  .footertextleft{
-    font-size: 11px;
-    margin-top: 10px;
-    margin-bottom: -10px;
-  }
-  
-  .footerlinkleft{
-    color: white;
-    text-decoration: none;
-   
-    
-    
-  }
-  
-  .footermedia{
-    display: flex;
-    
-  }
-
-  .footerdec{
-    text-decoration: none;
-    color: white;
-  }
-  
-  .footsocial{
-    display: flex;
-    margin: 0 auto;
-
-    gap: 30px;
-    margin-top: 4%;
-  }
-  
-  .footerbuttons{
-    display: hidden;
-    visibility: hidden;
-  }
-  
-  .borderbuttons{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    transform: translateX(-4%);
-    margin-top: 2%;
-  }
-  
-  
-  
-  .centertext{
-    width: 83%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-   
+.messageText {
+  width: 60.2%;
+  margin: 0 auto;
 }

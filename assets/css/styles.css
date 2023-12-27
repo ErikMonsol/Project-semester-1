@@ -1,28 +1,259 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap');
 
-/*
-  1. Use a more-intuitive box-sizing model.
-*/
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/*
-    2. Remove default margin
-  */
 * {
+  padding: 0;
   margin: 0;
 }
 
-/*
-    3. Allow percentage-based heights in the application
-  */
-html,
-body {
-  height: 100%;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+}
+
+.logo {
+  font-weight: bold;
+  color: white;
+}
+
+.break {
+  display: block;
+  font-size: 2.5rem;
+}
+
+.headboxinfo {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.buttons button {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.conInfo {
+  display: flex;
+  gap: 23px;
+  margin: 15px;
+}
+
+.butAndSocial {
+  width: 50%;
+}
+
+
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.footerbuttons {
+  background: none;
+  border: 3px solid white;
+  color: white;
+  margin-top: 3%;
+}
+
+
+@media (max-width: 2560px) and (min-width: 1000px) {
+
+  .buttons button {
+    padding: 10px 30px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .break {
+    margin: -3px 0px;
+  }
+
+  a.linkColor,
+  .musLogo {
+    font-size: 2.5rem;
+  }
+
+  .logo {
+    font-size: 1rem;
+    color: white;
+  }
+
+  nav>ul {
+    color: white;
+  }
+
+  .headboxinfo {
+    padding: 40px;
+    margin-left: 3%;
+  }
+
+  .footerContent {
+    width: 45%;
+  }
+
+  .footerbuttons {
+    padding: 26px 57px;
+    font-size: 3rem;
+  }
+
+  .butAndSocial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .conInfo {
+    justify-content: flex-start;
+  }
+
+
+  .screenSizeTabPhone {
+    opacity: 0;
+  }
+
+  .socialmedia {
+    height: 20%;
+  }
+
+  header {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 300px) {
+  .footerContent {
+    flex-direction: column;
+  }
+
+  .screenSizeLapPC {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 700px) and (min-width: 300px) {
+  nav>ul {
+    opacity: 0;
+    flex-direction: column;
+    margin-bottom: -50px;
+  }
+
+  .buttons button {
+    padding: 5px 20px;
+  }
+
+  .botmfix {
+    margin-bottom: 10px;
+  }
+
+
+  .logo,
+  button {
+    font-size: 0.8rem;
+  }
+
+  .headboxinfo {
+    padding: 20px;
+
+  }
+
+  .footerbuttons {
+    font-size: 1.3rem;
+    padding: 10px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+  }
+
+  .butAndSocial {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .conInfo,
+  .socialmedia {
+    justify-content: center;
+  }
+
+  .socialmedia {
+    gap: 32px;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .footerContent {
+    margin: 23px 5px 20px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .butAndSocial {
+    margin: 10px;
+    width: 90%;
+    justify-content: center;
+  }
+
+
+
+  nav {
+    margin-bottom: -40px;
+  }
+
+  header {
+    padding: 0px 10px;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+  }
+
+
+  .imageSizing {
+    width: 9%;
+  }
+}
+
+footer {
+  background: black;
+  height: auto;
+  min-width: 20%;
+  margin-top: 3%;
+  color: white;
+  display: flex;
+}
+
+.footerContent {
+  display: flex;
+  margin: 25px 20px;
 }
 
 /*
@@ -35,9 +266,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/*
-    6. Improve media defaults
-  */
 img,
 picture,
 video,
@@ -47,24 +275,6 @@ svg {
   max-width: 100%;
 }
 
-
-
-/*
-    8. Avoid text overflows
-  */
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-
-/*
-    9. Create a root stacking context
-  */
 #root,
 #__next {
   isolation: isolate;
@@ -101,17 +311,43 @@ h6 {
   border: none;
 }
 
+.logo h2 {
+  font-weight: 400;
+  line-height: 32.37px;
+}
 
-@media (min-width: 1000px) and (max-width: 2000px) {
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.textbottom,
+.bottomimagetext {
+  font-family: 'Bitter', serif;
+}
+
+.logo h2,
+.bottomundertext,
+.smalltext {
+  font-family: "Inria Sans", sans-serif;
+}
+
+@media (min-width: 1200px) and (max-width: 2560px) {
   img {
     display: block;
     max-width: 550px;
   }
+}
 
-  .logo.header__font {
-
-    width: 100%;
+@media (min-width: 1000px) and (max-width: 1200px) {
+  img {
+    display: block;
+    max-width: 450px;
   }
+}
+
+@media (min-width: 1000px) and (max-width: 2560px) {
 
 
   .burgermenu {
@@ -121,85 +357,16 @@ h6 {
     margin-top: -300px;
   }
 
-  .header__font h2,
-  .header__font li {
-    font-size: 2.7rem;
-    color: white;
-  }
 
   .logo h2 {
-    font-family: "Inria Sans", sans-serif;
-    font-weight: 400;
-    line-height: 32.37px;
-  }
-
-  .logo .h2__bold {
-    font-weight: 700;
-    display: block;
-  }
-
-  a {
-    text-decoration: none;
-    color: white;
-  }
-
-  header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 39px 61px 0 61px;
+    font-size: 2rem;
   }
 
   nav {
     flex: 1;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: center;
     font-family: "Bebas Neue", sans-serif;
-  }
-
-  nav>ul {
-    display: flex;
-    gap: 70px;
-    list-style: none;
-    margin-left: 20%;
-  }
-
-  .header__buttons {
-    display: flex;
-    gap: 35px;
-  }
-
-  .button__font button {
-    color: black;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 2.7rem;
-  }
-
-  .header__buttons button {
-    background-image: linear-gradient(to right,
-        #77a1d3 0%,
-        #79cbca 51%,
-        #77a1d3 100%);
-    padding: 10px;
-
-    text-align: center;
-    transition: 0.5s;
-    color: black;
-    display: block;
-    border: none;
-  }
-
-  .btick {
-    transform: translateX(50%);
-  }
-
-  .header__buttons button:hover {
-    background-position: right center;
-    /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
   }
 
   .textcenter {
@@ -239,7 +406,6 @@ h6 {
   }
 
   .bottomimagetext {
-    font-family: 'Bitter', serif;
     font-size: 4rem;
     width: 60%;
     color: black;
@@ -251,7 +417,6 @@ h6 {
   }
 
   .bottomundertext {
-    font-family: 'Inria Sans', sans-serif;
     font-size: 2rem;
     color: black;
     margin: 0 auto;
@@ -296,16 +461,14 @@ h6 {
     font-size: 4rem;
   }
 
-
   .textbottom {
     font-size: 4rem;
-    font-family: 'Bitter', serif;
   }
 
   .smalltext {
     font-size: 2rem;
     margin-top: 1%;
-    font-family: 'Inria Sans', sans-serif;
+
   }
 
   .imrel {
@@ -410,13 +573,10 @@ h6 {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-
   }
-
 }
 
 @media (max-width: 1000px) and (min-width: 700px) {
-
   .burgerCont {
     width: 100%;
     display: flex;
@@ -431,9 +591,6 @@ h6 {
   }
 
   .logo h2 {
-    font-family: "Inria Sans", sans-serif;
-    font-weight: 400;
-    line-height: 32.37px;
     font-size: 5rem;
   }
 
@@ -455,6 +612,7 @@ h6 {
     flex: 1;
     font-family: "Bebas Neue", sans-serif;
     opacity: 1;
+    justify-content: center;
     position: absolute;
   }
 
@@ -532,7 +690,6 @@ h6 {
   }
 
   .bottomimagetext {
-    font-family: 'Bitter', serif;
     font-size: 2rem;
     width: 60%;
     color: black;
@@ -544,7 +701,6 @@ h6 {
   }
 
   .bottomundertext {
-    font-family: 'Inria Sans', sans-serif;
     font-size: 2rem;
     color: black;
     margin: 0 auto;
@@ -586,7 +742,6 @@ h6 {
   .textbottom {
     font-size: 2rem;
     text-align: center;
-    font-family: 'Bitter', serif;
     margin-top: 30px;
   }
 
@@ -597,7 +752,6 @@ h6 {
   .smalltext {
     font-size: 1rem;
     margin-top: 1%;
-    font-family: 'Inria Sans', sans-serif;
     text-align: center;
     margin-bottom: 10px;
   }
@@ -617,10 +771,6 @@ h6 {
   }
 
   footer {
-    background-image: linear-gradient(to right,
-        #77a1d3 0%,
-        #79cbca 51%,
-        #77a1d3 100%);
     height: 30vh;
     width: 100%;
     margin-top: 3%;
@@ -696,37 +846,7 @@ h6 {
   }
 }
 
-
-
 @media (max-width: 700px) and (min-width: 300px) {
-
-
-  .header__font h2,
-  .header__font li {
-    font-size: 2.7rem;
-    color: white;
-    margin-bottom: 10%;
-  }
-
-  .logo h2 {
-    font-family: "Inria Sans", sans-serif;
-    font-weight: 400;
-    line-height: 32.37px;
-  }
-
-  .logo .h2__bold {
-    font-weight: 700;
-
-  }
-
-  header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 200px;
-    transform: translateY(50%);
-  }
-
   .burgermenu {
     transform: translateX(00%);
   }
@@ -812,7 +932,6 @@ h6 {
   }
 
   .bottomimagetext {
-    font-family: 'Bitter', serif;
     font-size: 2rem;
     width: 60%;
     color: black;
@@ -824,13 +943,11 @@ h6 {
   }
 
   .bottomundertext {
-    font-family: 'Inria Sans', sans-serif;
     font-size: 2rem;
     color: black;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 30px;
-
   }
 
   .linkbutton {
@@ -866,7 +983,6 @@ h6 {
   .textbottom {
     font-size: 2rem;
     text-align: center;
-    font-family: 'Bitter', serif;
     margin-top: 30px;
   }
 
@@ -877,14 +993,12 @@ h6 {
   .smalltext {
     font-size: 1rem;
     margin-top: 1%;
-    font-family: 'Inria Sans', sans-serif;
     text-align: center;
     margin-bottom: 10px;
   }
 
   .butlemo {
     margin: 0 auto;
-
     border: none;
     background: #FFA64D;
     font-size: 2.5rem;
@@ -895,15 +1009,9 @@ h6 {
     border-radius: 30px;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 3px;
-
   }
 
-
   footer {
-    background-image: linear-gradient(to right,
-        #77a1d3 0%,
-        #79cbca 51%,
-        #77a1d3 100%);
     height: 30vh;
     width: 100%;
     margin-top: 3%;
@@ -932,12 +1040,10 @@ h6 {
   .footerlinkleft {
     color: white;
     text-decoration: none;
-
   }
 
   .footermedia {
     display: flex;
-
   }
 
   .footsocial {
@@ -957,7 +1063,6 @@ h6 {
     color: white;
     margin-left: 20px;
   }
-
 
   .borderbuttons {
     width: 100%;
@@ -981,11 +1086,8 @@ h6 {
   }
 }
 
-
 @media only screen and (max-width: 1000px) {
-
   .imageContent {
-
     justify-content: center;
     display: flex;
     justify-content: center;

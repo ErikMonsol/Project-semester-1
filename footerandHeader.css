@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -8,6 +13,7 @@ header {
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 .logo {
@@ -63,14 +69,20 @@ nav ul li a {
 
 
 @media (max-width: 2560px) and (min-width: 1000px) {
-    .buttonadeventure {
-        width: 45%;
-    }
 
     .buttons button {
         padding: 10px;
+        background: black;
+        color: white;
+        border: 2px solid white;
+        border-radius: 10px;
+        font-size: 1rem;
+        cursor: pointer;
     }
 
+    nav ul li a {
+        font-size: 1.3rem;
+    }
 
     .logo {
         font-size: 1rem;
